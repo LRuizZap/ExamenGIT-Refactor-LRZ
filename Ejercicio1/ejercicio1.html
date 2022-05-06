@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio1</title>
+    <link rel="stylesheet" href="ejercicio1.css">
 </head>
+
 <body>
     <form>
         <fieldset>
             <legend>Ejercicio 1</legend>
-    
-            Sueldo<input type="text" name="text" id="sueldo">
-    
-            Antigüedad<input type="text" name="text" id="antiguedad">
-    
+
+            <label for="sueldo">Sueldo<input type="text" name="sueldo" id="sueldo"></label>
+
+            <label for="antiguedad">Antigüedad<input type="text" name="antiguedad" id="antiguedad"></label>
+
             <p id="resultado"></p>
-        </fieldset>   
+        </fieldset>
     </form>
-    <button onclick="Calcular()">Calcular</button>
+    <button onclick="CalcularSueldo()">Calcular</button>
     <script src="ejercicio1.js"></script>
 </body>
+
 </html>
